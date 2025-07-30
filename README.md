@@ -14,6 +14,52 @@ The best way to experience this project is to see it in action. The video below 
 
 **[➡️ Click here to watch the full demo video (11 seconds, ~600kb)](https://github.com/user-attachments/assets/99060e5a-1c94-4e65-9a64-ac7137e3bdc2)**
 
+## Preview
+
+<details>
+  <summary>► Click to watch the demo video</summary>
+  <br>
+  <p align="center">
+    <video controls>
+      <source src="https://raw.githubusercontent.com/siddhantdg/android-dynamic-battery-notifier/main/demo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </p>
+</details>
+
+
+## Preview
+
+<details>
+  <summary>► Click to watch the demo video</summary>
+  <br>
+  <p align="center">
+    <video controls>
+      <source src="https://github.com/user-attachments/assets/99060e5a-1c94-4e65-9a64-ac7137e3bdc2" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </p>
+</details>
+
+
+## Preview
+
+<p align="center">
+  <video controls>
+    <source src="https://raw.githubusercontent.com/siddhantdg/android-dynamic-battery-notifier/main/demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+
+## Preview
+
+<p align="center">
+  <video controls>
+    <source src="https://github.com/user-attachments/assets/99060e5a-1c94-4e65-9a64-ac7137e3bdc2" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
 
 ## The Problem
 Standard Android battery notifications are often generic and lack context. They typically provide a single, simple alert for low battery and full charge, without distinguishing between different levels of urgency or providing a rich user experience.
