@@ -8,6 +8,13 @@ A Tasker-based utility to provide advanced, customizable, and beautifully animat
 
 https://github.com/user-attachments/assets/99060e5a-1c94-4e65-9a64-ac7137e3bdc2
 
+## Preview
+
+The best way to experience this project is to see it in action. The video below demonstrates the custom popup for both discharging (screen-on) and charging (screen-off wake) alerts.
+
+**[➡️ Click here to watch the full demo video (11 seconds, ~600kb)](https://github.com/user-attachments/assets/99060e5a-1c94-4e65-9a64-ac7137e3bdc2)**
+
+
 ## The Problem
 Standard Android battery notifications are often generic and lack context. They typically provide a single, simple alert for low battery and full charge, without distinguishing between different levels of urgency or providing a rich user experience.
 
