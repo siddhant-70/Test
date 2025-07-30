@@ -6,6 +6,7 @@ A Tasker-based utility to provide advanced, customizable, and beautifully animat
 
 [Click here to watch the demo video](https://raw.githubusercontent.com/siddhantdg/android-dynamic-battery-notifier/main/demo.mp4)
 
+https://github.com/user-attachments/assets/99060e5a-1c94-4e65-9a64-ac7137e3bdc2
 
 ## The Problem
 Standard Android battery notifications are often generic and lack context. They typically provide a single, simple alert for low battery and full charge, without distinguishing between different levels of urgency or providing a rich user experience.
