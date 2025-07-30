@@ -1,93 +1,87 @@
-# Dynamic Battery Notifier for Android
+<div align="center">
+  <img src=".github/assets/claverpage-showcase.png" alt="Claverpage Showcase Banner" width="800"/>
+</div>
 
-A Tasker-based utility to provide advanced, customizable, and beautifully animated battery notifications for Android devices.
+# Claverpage ✨
 
-## Preview
+<div align="center">
 
-[Click here to watch the demo video](https://raw.githubusercontent.com/siddhantdg/android-dynamic-battery-notifier/main/demo.mp4)
+[![License](https://img.shields.io/badge/License-Custom-blue.svg)](LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/siddhantdg/Claverpage.svg)](https://github.com/siddhantdg/Claverpage/commits/main)
+[![Repo size](https://img.shields.io/github/repo-size/siddhantdg/Claverpage.svg)](https://github.com/siddhantdg/Claverpage)
 
-https://github.com/user-attachments/assets/99060e5a-1c94-4e65-9a64-ac7137e3bdc2
+A modern, dynamic, and customizable browser startpage with multiple search engines, modular shortcuts, and a sleek, animated UI.
 
-## Preview
+**[➡️ View Live Demo](https://siddhantdg.github.io/Claverpage/)**
 
-The best way to experience this project is to see it in action. The video below demonstrates the custom popup for both discharging (screen-on) and charging (screen-off wake) alerts.
+</div>
 
-**[➡️ Click here to watch the full demo video (11 seconds, ~600kb)](https://github.com/user-attachments/assets/99060e5a-1c94-4e65-9a64-ac7137e3bdc2)**
+---
 
-## Preview
+Welcome to Claverpage! This isn't just a static page; it's a fully-featured, productivity-focused browser homepage designed for speed and style. It serves as a personal dashboard to launch you into your web activities, combining aesthetics with powerful functionality.
 
-<details>
-  <summary>► Click to watch the demo video</summary>
-  <br>
-  <p align="center">
-    <video controls>
-      <source src="https://raw.githubusercontent.com/siddhantdg/android-dynamic-battery-notifier/main/demo.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </p>
-</details>
+## 🚀 Key Features
 
+*   ⚡ **Dynamic Search Engine:** Switch between Google, Bing, DuckDuckGo, and more on the fly directly from the homepage.
+*   💡 **Live Search Suggestions:** Get instant, helpful search suggestions from Google as you type, making searching faster and more efficient.
+*   🧩 **JSON-Powered Shortcuts:** Easily add, remove, and categorize all your favorite links by editing a single, simple `shortcuts.json` file. No need to touch the HTML!
+*   🎨 **Modern UI/UX:** A sleek dark-mode interface with smooth, meaningful animations, a glassmorphism blur effect, and a fully responsive design that looks great on any screen.
+*   🗂️ **Smart Categorization:** Organize shortcuts into primary blocks on the main screen or into full-screen modals for larger collections, keeping your dashboard clean and uncluttered.
+*   💨 **Lightweight & Fast:** Built with pure HTML, CSS, and vanilla JavaScript for near-instant load times.
 
-## Preview
+## 🎬 In Action
 
-<details>
-  <summary>► Click to watch the demo video</summary>
-  <br>
-  <p align="center">
-    <video controls>
-      <source src="https://github.com/user-attachments/assets/99060e5a-1c94-4e65-9a64-ac7137e3bdc2" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </p>
-</details>
+*(Here you would embed your GIF showing the dynamic features)*
 
+<img src=".github/assets/claverpage-demo.gif" alt="Claverpage Demo GIF"/>
 
-## Preview
+## 🔧 Configuration
 
+Customizing your shortcuts is incredibly simple. All links and their categories are managed in the `shortcuts.json` file.
+
+1.  Open the `shortcuts.json` file.
+2.  Find the category you want to edit (e.g., `"tools"`, `"productivity"`).
+3.  Add or remove shortcut objects. Each object needs a `name`, `url`, and `icon` link.
+
+```json
+{
+  "tools": [
+    { 
+      "name": "Gmail", 
+      "url": "https://mail.google.com", 
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=gmail.com" 
+    },
+    { 
+      "name": "GitHub", 
+      "url": "https://github.com", 
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=github.com" 
+    }
+    // ...add more tools here
+  ],
+  "social": [
+    // ...add social links here
+  ]
+}
+```
+
+## 📜 Usage Guidelines & License
+
+This project is licensed under a **Custom License**. I'm thrilled you're checking out my project! Here’s what that means for you:
+
+*   ✔️ **You are free to:**
+    *   View and inspect the source code.
+    *   Fork the repository for personal experimentation and learning.
+    *   Use the [live GitHub Pages link](https://siddhantdg.github.io/Claverpage/) as your personal browser homepage.
+
+*   ❌ **You are not permitted to:**
+    *   Modify and create derivative works from this code.
+    *   Redistribute or republish this code elsewhere without my explicit written permission.
+
+## 📞 Contact
+
+If you have any questions or need permission for usage beyond what is outlined above, feel free to reach out to me at [siddhantdigraje77@gmail.com](mailto:siddhantdigraje77@gmail.com).
+
+---
 <p align="center">
-  <video controls>
-    <source src="https://raw.githubusercontent.com/siddhantdg/android-dynamic-battery-notifier/main/demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+Made with ❤️ by Siddhant
 </p>
-
-
-## Preview
-
-<p align="center">
-  <video controls>
-    <source src="https://github.com/user-attachments/assets/99060e5a-1c94-4e65-9a64-ac7137e3bdc2" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</p>
-
-## The Problem
-Standard Android battery notifications are often generic and lack context. They typically provide a single, simple alert for low battery and full charge, without distinguishing between different levels of urgency or providing a rich user experience.
-
-## The Solution
-This project replaces the native system with a fully custom-tailored notification engine built within Tasker. It provides distinct visual and auditory feedback for multiple battery states, both when discharging and charging, enhancing user awareness and improving battery health management.
-
-## Core Features
-*   **Multi-Level Alerts:** Triggers unique notifications for 6 different battery states (5%, 15%, 25% discharging & 85%, 90%, 100% charging).
-*   **Context-Aware Logic:** Utilizes distinct logic for charging vs. discharging states, ensuring the correct alert is always shown.
-*   **Custom Animated UI:** A sleek, "Dynamic Island" style popup built with HTML, CSS, and SVG provides a modern and visually appealing alert. The UI is populated with live data from Tasker.
-*   **Intelligent Screen Wake:** For charging notifications when the screen is likely off, the system uses a high-priority notification to wake the screen smoothly to the lock screen without glitches.
-*   **Varied User Feedback:**
-    *   **Discharging Alerts (Screen On):** Plays a notification sound and provides haptic feedback (vibration) without a persistent notification in the status bar.
-    *   **Charging Alerts (Screen Off):** Creates a high-priority notification in the status bar to wake the device.
-*   **Battery Health Logging:** Includes a secondary feature to log charging start/stop times and key battery milestones for user review.
-
-## Technology Stack
-*   **Automation Engine:** [Tasker](https://tasker.joaoapps.com/)
-*   **User Interface:** HTML5, CSS3 (Flexbox, Keyframes, CSS Variables), SVG
-*   **Logic:** Tasker's built-in logic gates, variable management, and system state detection.
-
-## How to Use
-1.  Ensure you have the Tasker app installed on your Android device.
-2.  Download the `Dynamic_Battery_Notifier.prj.xml` file from this repository.
-3.  In Tasker, long-press on the "Home" icon (or any project tab) and select "Import Project".
-4.  Navigate to and select the downloaded `.xml` file.
-5.  Tasker will import all required Profiles, Tasks, and Scenes. Enable the profiles to begin using the system.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
